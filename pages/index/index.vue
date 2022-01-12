@@ -22,7 +22,7 @@
 			<!--社交宫格宫格-->
 			<view class="warp" style="text-align: center;">
 				<uni-card is-full :is-shadow="false">
-					<text class="uni-h6">宫格组件主要使用场景如：商品推荐列表、热门内容等</text>
+					<text class="uni-h6">渣男渣女查询器</text>
 				</uni-card>
 				<uni-section title="社交软件" type="line" padding>
 					<uni-grid :column="4" :highlight="true" @change="change">
