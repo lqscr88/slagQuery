@@ -9,10 +9,10 @@
     mounted() {
       if (this._isMobile()) {
         console.log("手机端")
-        // this.$router.replace('/m_index');
+        this.$router.push('pages/index/index')
       } else {
         console.log("pc端")
-        // this.$router.replace('/pc_index');
+        this.$router.push('pages/pc/index')
       }
     },
 		onLaunch: function() {

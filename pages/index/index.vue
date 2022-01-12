@@ -7,18 +7,18 @@
 			<view style="height: 44px;width: 100%;">边距盒子</view>
 			<!-- #endif -->
 			<!-- 搜索 -->
-			<view class='searchInput999'>
+			<view class='searchInput999' style="margin-top: 5px">
 				<view class='searchBox999'>
 					<image src='/static/icon-search.png' class='search999'></image>
 				</view>
 				<input class='input999' placeholder="输入关键词"></input>
 			</view>
 			<!-- 搜索框下占位盒子，原是swiper选择列表-->
-			<view style="height: 44px;width: 100%;"></view>
+			<view style="height: 20px;width: 100%;"></view>
 		</view>
 		<view>
 			<!-- 搜索框下占位盒子，原是swiper选择列表-->
-			<view style="height: 88px;width: 100%;"></view>
+			<view style="height: 68px;width: 100%;"></view>
 			<!--社交宫格宫格-->
 			<view class="warp" style="text-align: center;">
 				<uni-card is-full :is-shadow="false">
