@@ -26,7 +26,7 @@
 				</uni-card>
 				<uni-section title="社交软件" type="line" padding>
 					<uni-grid :column="4" :highlight="true" @change="change">
-						<uni-grid-item v-for="(item, index) in 6" :index="index" :key="index">
+						<uni-grid-item v-for="(item, index) in 4" :index="index" :key="index">
 							<view class="grid-item-box" style="background-color: #fff;">
 								<uni-icons type="image" :size="30" color="#777" />
 								<text class="text">文本信息</text>
@@ -42,7 +42,7 @@
       <view class="warp" style="text-align: center;">
         <uni-section title="游戏" type="line" padding>
           <uni-grid :column="4" :highlight="true" @change="change">
-            <uni-grid-item v-for="(item, index) in 6" :index="index" :key="index">
+            <uni-grid-item v-for="(item, index) in 4" :index="index" :key="index">
               <view class="grid-item-box" style="background-color: #fff;">
                 <uni-icons type="image" :size="30" color="#777" />
                 <text class="text">文本信息</text>
@@ -56,10 +56,10 @@
       <!-- 搜索框下占位盒子，原是swiper选择列表-->
       <view style="width: 100%;"></view>
       <!--社交宫格宫格-->
-      <view class="warp" style="text-align: center;margin-bottom: 50px">
+      <view class="warp" style="text-align: center;">
         <uni-section title="其他" type="line" padding>
           <uni-grid :column="4" :highlight="true" @change="change">
-            <uni-grid-item v-for="(item, index) in 6" :index="index" :key="index">
+            <uni-grid-item v-for="(item, index) in 4" :index="index" :key="index">
               <view class="grid-item-box" style="background-color: #fff;">
                 <uni-icons type="image" :size="30" color="#777" />
                 <text class="text">文本信息</text>
@@ -103,7 +103,6 @@
 			};
 		},
 		onLoad(e) {
-
 		},
 		onShow() {},
 		onHide() {},
