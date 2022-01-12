@@ -3,7 +3,7 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "移动端首页",
+				"navigationBarTitleText": "首页",
                 "disableScroll":true,
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#50B7EA",
@@ -24,7 +24,7 @@
 		},{
 			"path": "pages/pc/index",
 			"style": {
-				"navigationBarTitleText": "pc首页"
+				"navigationBarTitleText": "首页"
 			}
 		}
 	]

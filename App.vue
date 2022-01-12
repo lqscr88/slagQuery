@@ -9,21 +9,18 @@
     mounted() {
       if (this._isMobile()) {
         console.log("手机端")
-        this.$router.push('pages/index/index')
+        // this.$router.push('pages/index/index')
+		uni.navigateTo({
+		    url: 'pages/index/index'
+		});
       } else {
         console.log("pc端")
-        this.$router.push('pages/pc/index')
+        // this.$router.push('pages/pc/index')
+		uni.navigateTo({
+		    url: 'pages/pc/index'
+		});
       }
-    },
-		onLaunch: function() {
-			console.log('App Launch')
-		},
-		onShow: function() {
-			console.log('App Show')
-		},
-		onHide: function() {
-			console.log('App Hide')
-		}
+    }
 	}
 </script>
 
