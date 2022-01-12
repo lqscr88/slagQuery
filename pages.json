@@ -3,14 +3,48 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				// "navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "移动端首页",
+                "disableScroll":true,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#50B7EA",
+				"backgroundColor": "#50B7EA",
+				"tabBar": {
+					"color": "#cdcdcd",
+					"selectedColor": "#50B7EA",
+					"borderStyle": "white",
+					"list": [{
+						"pagePath": "pages/index/index",
+						"text": "短tab",
+						"iconPath": "static/index_change.png",
+						"selectedIconPath": "static/index.png"
+					}
+					]
+				}
+			}
+		},{
+			"path": "pages/pc/index",
+			"style": {
+				"navigationBarTitleText": "pc首页"
 			}
 		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		// "navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
+	]
+	// ,
+	// "globalStyle": {
+	// 	"navigationBarTextStyle": "white",
+	// 	"navigationBarTitleText": "uni-app",
+	// 	"navigationBarBackgroundColor": "#50B7EA",
+	// 	"backgroundColor": "#50B7EA"
+	// },
+	// 	"tabBar": {
+	// 	"color": "#cdcdcd",
+	// 	"selectedColor": "#50B7EA",
+	// 	"borderStyle": "white",
+	// 	"list": [{
+	// 			"pagePath": "pages/index/index",
+	// 			"text": "短tab",
+	// 			"iconPath": "static/index_change.png",
+	// 			"selectedIconPath": "static/index.png"
+	// 		}
+	// 	]
+	// }
 }
